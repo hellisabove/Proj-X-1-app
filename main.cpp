@@ -14,13 +14,13 @@ int main()
 CRED:
 
     cout << "Choose what you want to do: " << endl;
-    cout << "[1] About Us" << endl << "[2] Pwnagotchi" <<endl;
-    cout << "[3] Quit" << endl;
+    cout << "[1] About Us" << endl << "[2] Pwnagotchi" <<endl << "[3] Hidden;
+    cout << "[4] Quit" << endl;
     string input;
     getline(cin, input);
     cin >> input;
     if(input == "1") {
-        cout<<"We are a group created by HellIsAbove to bring down the corrupt goverment"<<endl;
+        cout<<"We are a group created by HellIsAbove whos objectives are unknows for anyone outside of us"<<endl;
         system("pause");
         cout<<endl;
         system("CLS");
@@ -32,8 +32,14 @@ CRED:
         system("CLS");
         goto CRED;
     }
+    
+    if(input == "3"0 {
+        cout<<"Our Hidden Domain is currently under construction. You will be notified when it's done";
+        cout<<endl;
+        goto CRED
+    }
 
-    if(input == "3") {
+    if(input == "4") {
         std::terminate();
     }
 
